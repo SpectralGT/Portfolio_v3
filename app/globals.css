@@ -4,3 +4,8 @@
   --background: #eaeaea;
   --foreground: #000000;
 }
+
+.bg1 {
+  color: var(--background);
+  background-color: var(--foreground)
+}
