@@ -1,16 +1,17 @@
 'use client'
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="backdrop-blur-md w-screen">
+    <header className="backdrop-blur-md w-screen fixed top-0 left-0">
       <nav className="container px-4 py-3 max-w-screen w-screen flex justify-between items-center z-10 relative">
         {/* Logo */}
-        < a href="/" className="text-xl font-bold">
+        < Link href="/" className="text-xl font-bold">
           A
-        </a>
+        </Link>
 
         {/* Navigation Links (Desktop) */}
         <div className="hidden md:flex space-x-4">

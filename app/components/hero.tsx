@@ -1,9 +1,11 @@
 export default function Hero() {
   return (
-    <main>
-     <span>Hi! I'm Atharv</span>
-     <br></br>
-     <span>Full-stack Developer</span>
-    </main>
+    <div className="h-screen bg-red-700">
+      <div className="w-full h-full flex flex-col justify-center items-center">
+        <span className="text-xl">Hi! I&apos;m Atharv</span>
+        <br></br>
+        <span>Full-stack Developer</span>
+      </div>
+    </div>
   );
 }
