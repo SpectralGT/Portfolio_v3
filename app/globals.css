@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
 
 :root {
   --background: #eaeaea;
@@ -8,4 +10,19 @@
 .bg1 {
   color: var(--background);
   background-color: var(--foreground)
+}
+
+.archivo-black {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+.archivo {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  
 }
