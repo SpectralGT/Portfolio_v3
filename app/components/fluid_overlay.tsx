@@ -11,14 +11,15 @@ export default function FluidOverlay({
 }) {
   return (
     <>
-      <Canvas
+          {children}
+      {/* <Canvas
         style={{
           position: 'fixed',
           top: 0,
           left: 0,
           height: '100vh',
           width: '100vw',
-          background: '#000000',
+          background: '#00000000',
         }}>
         <EffectComposer>
           <Fluid
@@ -37,8 +38,7 @@ export default function FluidOverlay({
             backgroundColor='#a7958b'
             fluidColor='#cfc0a8' />
         </EffectComposer>
-      </Canvas>;
-      {children}
+      </Canvas>; */}
     </>
   )
 }
